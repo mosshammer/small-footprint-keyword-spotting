@@ -15,6 +15,7 @@
 
 import torch
 from pytorch_lightning import Trainer
+# Critical components for dataset loading and transformation, to be tested
 from dataset import SpeechCommandsDataset, transform
 from argparse import ArgumentParser
 from functools import partial
