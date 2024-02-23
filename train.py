@@ -16,6 +16,7 @@
 import torch
 from pytorch_lightning import Trainer
 from dataset import SpeechCommandsDataset, transform
+import click
 from argparse import ArgumentParser
 from functools import partial
 from model import SincWakeNet
